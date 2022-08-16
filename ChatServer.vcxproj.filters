@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\utility">
+      <UniqueIdentifier>{5dfedda5-e39b-4d0f-924d-9550f0703002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\custom_structs">
+      <UniqueIdentifier>{35ed9431-e2f3-4bcd-941a-5f605c28a540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\chat protocol">
+      <UniqueIdentifier>{2e5aeee7-e613-460d-be95-c1724351680a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\server">
+      <UniqueIdentifier>{2ad29997-b59d-4002-82c5-9adfab6bc7bd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="queue.h">
+      <Filter>Header Files\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="chat_structs.h">
+      <Filter>Header Files\custom_structs</Filter>
+    </ClInclude>
+    <ClInclude Include="chat_handle.h">
+      <Filter>Header Files\chat protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="client_handle.h">
+      <Filter>Header Files\chat protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="server.h">
+      <Filter>Header Files\server</Filter>
+    </ClInclude>
+    <ClInclude Include="scoped_thread.h">
+      <Filter>Header Files\utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="chat_handle.cpp">
+      <Filter>Header Files\chat protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="client_handler.cpp">
+      <Filter>Header Files\chat protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
